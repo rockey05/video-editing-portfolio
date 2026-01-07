@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rockey's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-content tilt-container">
+      <div class="tilt-inner">
+        <div class="hero-image">
+          <img src="pfp/pfp.webp" alt="Rockey" />
+        </div>
+
+        <div class="hero-text">
+          <h1>Hi, I’m <span>Rockey</span></h1>
+          <p>Professional Video Editor</p>
+          <a href="#showcase" class="liquid-btn">
+            <span>Watch My Work</span>
+          </a>
+
+          <div class="software-logos">
+    <img src="icons/after-effects.png.png" alt="After Effects" />
+    <img src="icons/premiere-pro.png.png" alt="Premiere Pro" />
+    <img src="icons/photoshot.png.png" alt="Premiere Pro" />
+     <img src="icons/DaVinci_Resolve_Studio.png" alt="Premiere Pro" />
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase-section" id="showcase">
+    <h2>My Reels Showcase</h2>
+
+    <div class="horizontal-scroll">
+      <div class="card">
+        <div class="video-container">
+          <video muted loop playsinline preload="metadata" >
+            <source src="videos/reel 9.mp4" type="video/mp4" />
+          </video>
+          <button class="mute-btn">🔇</button>
+        </div>
+        <p>Dynamic Edits</p>
+      </div>
+      <div class="card">
+        <div class="video-container">
+          <video muted loop playsinline preload="metadata">
+            <source src="videos/reel 9.mp4" type="video/mp4" />
+          </video>
+          <button class="mute-btn">🔇</button>
+        </div>
+        <p>Cinematic Motion</p>
+      </div>
+    </div>
+  </section>
+
+
+<section class="showcase-section video-explanation" id="showcase-explanation">
+  <h2>In-depth Reels Breakdown</h2>
+  <div class="explanation-cards">
+    <div class="card">
+      <div class="video-container">
+        <video muted loop playsinline preload="metadata">
+          <source src="videos/reel 9.mp4" type="video/mp4" />
+        </video>
+        <button class="mute-btn">🔇</button>
+      </div>
+      <div class="explanation-text">
+        <h3>Creative Storytelling</h3>
+        <p>Creative storytelling and editing style with dynamic cuts and effects.</p>
+      </div>
+    </div>
+    <!-- More cards -->
+  </div>
+</section>
+
+
+
+
+  <section class="contact-section">
+    <h2>Let’s Work Together</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <textarea placeholder="Tell me about your project..." rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script> 
+</body>
+</html>
